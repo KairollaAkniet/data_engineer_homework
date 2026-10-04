@@ -1,0 +1,30 @@
+name: PySpark Homework Checker
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test-pyspark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '11'
+          distribution: temurin
+      - name: Install requirements
+        run: python -m pip install -r requirements.txt
+      - name: Run all tests
+        env:
+          PYSPARK_PYTHON: python
+          SPARK_LOCAL_IP: 127.0.0.1
+        run: python -m pytest tests/test_homework.py -v --tb=short

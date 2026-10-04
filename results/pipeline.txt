@@ -1,0 +1,157 @@
+Picked up JAVA_TOOL_OPTIONS:  "-Djava.library.path=C:\Users\Akniet\OneDrive\Desktop\snip\work\pyspark-runtime\hadoop\bin"
+Picked up JAVA_TOOL_OPTIONS:  "-Djava.library.path=C:\Users\Akniet\OneDrive\Desktop\snip\work\pyspark-runtime\hadoop\bin"
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/04 22:03:28 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+26/10/04 22:03:28 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+26/10/04 22:03:28 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+26/10/04 22:03:28 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+26/10/04 22:03:28 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+26/10/04 22:03:28 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+26/10/04 22:03:28 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
++--------------------+------------+--------------+--------------+
+|known_for_department|person_count|avg_popularity|max_popularity|
++--------------------+------------+--------------+--------------+
+|Visual Effects      |17          |4.49          |47.978        |
+|Lighting            |5           |2.31          |4.6303        |
+|Acting              |9320        |2.14          |47.8017       |
+|Art                 |8           |1.95          |2.4766        |
+|Directing           |329         |1.89          |9.3881        |
+|Camera              |7           |1.81          |4.2329        |
+|Production          |43          |1.75          |7.9121        |
+|Sound               |27          |1.63          |3.1895        |
+|Writing             |174         |1.58          |4.3938        |
+|Costume & Make-Up   |8           |1.52          |2.0895        |
+|Editing             |18          |1.51          |5.1203        |
+|Crew                |16          |1.44          |2.8169        |
+|Creator             |3           |1.28          |2.2467        |
++--------------------+------------+--------------+--------------+
+
++------------+-----+----------+
+|gender_label|count|percentage|
++------------+-----+----------+
+|Male        |5271 |52.84     |
+|Female      |4537 |45.48     |
+|Unknown     |149  |1.49      |
+|Other       |18   |0.18      |
++------------+-----+----------+
+
++--------------------+------+--------------------+--------------------+----------+------------+---------------+----+----------+
+|name                |gender|known_for_department|original_name       |popularity|gender_label|popularity_tier|rank|row_number|
++--------------------+------+--------------------+--------------------+----------+------------+---------------+----+----------+
+|Robert Middlemass   |2     |Acting              |Robert Middlemass   |47.8017   |Male        |A-list         |1   |1         |
+|María Vaner         |1     |Acting              |María Vaner         |47.2016   |Female      |A-list         |2   |2         |
+|Carl Wharton        |2     |Acting              |Carl Wharton        |36.3365   |Male        |B-list         |3   |3         |
+|Victor Moore        |2     |Acting              |Victor Moore        |35.9181   |Male        |B-list         |4   |4         |
+|Sydney Sweeney      |1     |Acting              |Sydney Sweeney      |32.9698   |Female      |B-list         |5   |5         |
+|Alex Kameniczky     |0     |Art                 |Alex Kameniczky     |2.4766    |Unknown     |Unknown        |1   |1         |
+|Alex Kameniczky     |0     |Art                 |Alex Kameniczky     |2.4766    |Unknown     |Unknown        |1   |2         |
+|Scott Roberts       |0     |Art                 |Scott Roberts       |2.3803    |Unknown     |Unknown        |3   |3         |
+|Patrick Hunt        |0     |Art                 |Patrick Hunt        |2.3035    |Unknown     |Unknown        |4   |4         |
+|Nelson Dewey        |0     |Art                 |Nelson Dewey        |2.0729    |Unknown     |Unknown        |5   |5         |
+|Nguyễn Phan Linh Đan|1     |Camera              |Nguyễn Phan Linh Đan|4.2329    |Female      |Unknown        |1   |1         |
+|Patrick Pulido      |0     |Camera              |Patrick Pulido      |2.359     |Unknown     |Unknown        |2   |2         |
+|Federico Verardi    |2     |Camera              |Federico Verardi    |1.727     |Male        |Unknown        |3   |3         |
+|Kim Ji-yong         |2     |Camera              |김지용              |1.213     |Male        |Unknown        |4   |4         |
+|Kim Ji-yong         |2     |Camera              |김지용              |1.213     |Male        |Unknown        |4   |5         |
+|Grainne Daly        |0     |Costume & Make-Up   |Grainne Daly        |2.0895    |Unknown     |Unknown        |1   |1         |
+|Grainne Daly        |0     |Costume & Make-Up   |Grainne Daly        |2.0895    |Unknown     |Unknown        |1   |2         |
+|Brianna Patterson   |0     |Costume & Make-Up   |Brianna Patterson   |2.022     |Unknown     |Unknown        |3   |3         |
+|Brianna Patterson   |0     |Costume & Make-Up   |Brianna Patterson   |2.022     |Unknown     |Unknown        |3   |4         |
+|Lauren Zimmermann   |0     |Costume & Make-Up   |Lauren Zimmermann   |1.5396    |Unknown     |Unknown        |5   |5         |
+|Mi Er               |2     |Creator             |米二                |2.2467    |Male        |Unknown        |1   |1         |
+|Mamoru Kambe        |0     |Creator             |Mamoru Kambe        |1.0068    |Unknown     |Unknown        |2   |2         |
+|Vincent Woodcock    |0     |Creator             |Vincent Woodcock    |0.5953    |Unknown     |Unknown        |3   |3         |
+|Deb Macatumpag      |1     |Crew                |Deb Macatumpag      |2.8169    |Female      |Unknown        |1   |1         |
+|Eric Leisher        |0     |Crew                |Eric Leisher        |2.2675    |Unknown     |Unknown        |2   |2         |
+|Danielle Aranda     |1     |Crew                |Danielle Aranda     |2.2564    |Female      |Unknown        |3   |3         |
+|Evelyn Macken       |0     |Crew                |Evelyn Macken       |1.7107    |Unknown     |Unknown        |4   |4         |
+|Bill Weston         |2     |Crew                |Bill Weston         |1.4035    |Male        |Unknown        |5   |5         |
+|Adolfo Aristarain   |2     |Directing           |Adolfo Aristarain   |9.3881    |Male        |Unknown        |1   |1         |
+|Adolfo Aristarain   |2     |Directing           |Adolfo Aristarain   |9.3881    |Male        |Unknown        |1   |2         |
+|Julie Anne Robinson |1     |Directing           |Julie Anne Robinson |9.3199    |Female      |Unknown        |3   |3         |
+|Alessandro Genovesi |2     |Directing           |Alessandro Genovesi |6.2275    |Male        |Unknown        |4   |4         |
+|Alessandro Genovesi |2     |Directing           |Alessandro Genovesi |6.2275    |Male        |Unknown        |4   |5         |
+|Shōji Sakai         |2     |Editing             |酒井正次            |5.1203    |Male        |Unknown        |1   |1         |
+|Adam Burr           |2     |Editing             |Adam Burr           |2.4358    |Male        |Unknown        |2   |2         |
+|Roberta Bononi      |0     |Editing             |Roberta Bononi      |2.0998    |Unknown     |Unknown        |3   |3         |
+|David Webb          |2     |Editing             |David Webb          |1.9685    |Male        |Unknown        |4   |4         |
+|David Webb          |2     |Editing             |David Webb          |1.9685    |Male        |Unknown        |4   |5         |
+|Andy Day            |0     |Lighting            |Andy Day            |4.6303    |Unknown     |Unknown        |1   |1         |
+|Katie Colwell       |0     |Lighting            |Katie Colwell       |2.3768    |Unknown     |Unknown        |2   |2         |
+|Jim Malmgren        |0     |Lighting            |Jim Malmgren        |1.9826    |Unknown     |Unknown        |3   |3         |
+|Jim Malmgren        |0     |Lighting            |Jim Malmgren        |1.9826    |Unknown     |Unknown        |3   |4         |
+|Mitch Gulbin        |0     |Lighting            |Mitch Gulbin        |0.5801    |Unknown     |Unknown        |5   |5         |
+|Krisma Fajardo      |1     |Production          |Krisma Fajardo      |7.9121    |Female      |Unknown        |1   |1         |
+|Divya Khossla       |1     |Production          |Divya Khosla Kumar  |3.1867    |Female      |Unknown        |2   |2         |
+|Ewa Piaskowska      |1     |Production          |Ewa Piaskowska      |2.7122    |Female      |Unknown        |3   |3         |
+|Robert Ptáček       |2     |Production          |Robert Ptáček       |2.5285    |Male        |Unknown        |4   |4         |
+|Abigail Tucker      |0     |Production          |Abigail Tucker      |2.3676    |Unknown     |Unknown        |5   |5         |
+|Takehito Koyasu     |2     |Sound               |子安武人            |3.1895    |Male        |Unknown        |1   |1         |
+|Paul Williams       |2     |Sound               |Paul Williams       |2.3609    |Male        |Unknown        |2   |2         |
+|Jiří Melcher        |2     |Sound               |Jiří Melcher        |2.342     |Male        |Unknown        |3   |3         |
+|Stephanie Gangel    |1     |Sound               |Stephanie Gangel    |2.2722    |Female      |Unknown        |4   |4         |
+|Konomi Suzuki       |1     |Sound               |鈴木このみ          |2.2024    |Female      |Unknown        |5   |5         |
+|Eric Larson         |2     |Visual Effects      |Eric Larson         |47.978    |Male        |A-list         |1   |1         |
+|Tetsuya Takeuchi    |2     |Visual Effects      |竹内哲也            |5.8338    |Male        |Unknown        |2   |2         |
+|Soumen Das          |0     |Visual Effects      |Soumen Das          |2.2816    |Unknown     |Unknown        |3   |3         |
+|Mokoo.g             |0     |Visual Effects      |Mokoo.G             |2.1847    |Unknown     |Unknown        |4   |4         |
+|Kenichi Shimizu     |2     |Visual Effects      |清水健一            |1.9949    |Male        |Unknown        |5   |5         |
+|Aditya Dhar         |2     |Writing             |Aditya Dhar         |4.3938    |Male        |Unknown        |1   |1         |
+|Aditya Dhar         |2     |Writing             |Aditya Dhar         |4.3938    |Male        |Unknown        |1   |2         |
+|Deko Akao           |1     |Writing             |赤尾でこ            |4.1207    |Female      |Unknown        |3   |3         |
+|Taylor Sheridan     |2     |Writing             |Taylor Sheridan     |3.9622    |Male        |Unknown        |4   |4         |
+|Oniroku Dan         |2     |Writing             |団鬼六              |3.3762    |Male        |Unknown        |5   |5         |
++--------------------+------+--------------------+--------------------+----------+------------+---------------+----+----------+
+
+[Stage 38:>                                                         (0 + 2) / 4]
+
+[Stage 38:=============================>                            (2 + 2) / 4]
+
+                                                                                
+
++--------------------+-------+------+----+-----+
+|known_for_department|Unknown|Female|Male|Other|
++--------------------+-------+------+----+-----+
+|Acting              |84     |4479  |4739|18   |
+|Art                 |7      |0     |1   |0    |
+|Camera              |1      |1     |5   |0    |
+|Costume & Make-Up   |7      |1     |0   |0    |
+|Creator             |2      |0     |1   |0    |
+|Crew                |7      |4     |5   |0    |
+|Directing           |9      |11    |309 |0    |
+|Editing             |2      |3     |13  |0    |
+|Lighting            |5      |0     |0   |0    |
+|Production          |11     |9     |23  |0    |
+|Sound               |2      |5     |20  |0    |
+|Visual Effects      |3      |1     |13  |0    |
+|Writing             |9      |23    |142 |0    |
++--------------------+-------+------+----+-----+
+
+Initial partitions: 1
+After repartition(8): 8
+After repartition(4, department): 4
+Coalesce: 16 -> 4
+Acting partition rows: 9320
+repartition(1): 0.495 seconds
+repartition(8): 0.686 seconds
+Difference (1 minus 8): -0.191 seconds
+Final row count: 9975
++-----------------+------+--------------------+-----------------+----------+------------+---------------+----+
+|name             |gender|known_for_department|original_name    |popularity|gender_label|popularity_tier|rank|
++-----------------+------+--------------------+-----------------+----------+------------+---------------+----+
+|Robert Middlemass|2     |Acting              |Robert Middlemass|47.8017   |Male        |A-list         |1   |
+|María Vaner      |1     |Acting              |María Vaner      |47.2016   |Female      |A-list         |2   |
+|Carl Wharton     |2     |Acting              |Carl Wharton     |36.3365   |Male        |B-list         |3   |
+|Victor Moore     |2     |Acting              |Victor Moore     |35.9181   |Male        |B-list         |4   |
+|Sydney Sweeney   |1     |Acting              |Sydney Sweeney   |32.9698   |Female      |B-list         |5   |
+|Omar Chaparro    |2     |Acting              |Omar Chaparro    |32.5659   |Male        |B-list         |6   |
+|Julanne Johnston |1     |Acting              |Julanne Johnston |31.6448   |Female      |B-list         |7   |
+|Edward Grover    |2     |Acting              |Edward Grover    |30.3934   |Male        |B-list         |8   |
+|Hannah Cheramy   |1     |Acting              |Hannah Cheramy   |29.2875   |Female      |B-list         |9   |
+|Daniella Wang    |1     |Acting              |王李丹妮         |27.7832   |Female      |B-list         |10  |
++-----------------+------+--------------------+-----------------+----------+------------+---------------+----+
+only showing top 10 rows
+
+ERROR: Access denied
+

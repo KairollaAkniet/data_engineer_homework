@@ -1,0 +1,21 @@
+platform win32 -- Python 3.10.19, pytest-7.4.0, pluggy-1.6.0 -- C:\Users\Akniet\OneDrive\Desktop\snip\work\pyspark-runtime\venv\Scripts\python.exe
+collecting ... collected 18 items
+tests/test_homework.py::test_create_spark_session PASSED                 [  5%]
+tests/test_homework.py::test_load_data PASSED                            [ 11%]
+tests/test_homework.py::test_load_data_with_schema PASSED                [ 16%]
+tests/test_homework.py::test_clean_data PASSED                           [ 22%]
+tests/test_homework.py::test_decode_gender PASSED                        [ 27%]
+tests/test_homework.py::test_popularity_tier_boundaries PASSED           [ 33%]
+tests/test_homework.py::test_normalize_names PASSED                      [ 38%]
+tests/test_homework.py::test_register_temp_view PASSED                   [ 44%]
+tests/test_homework.py::test_dept_stats_sql PASSED                       [ 50%]
+tests/test_homework.py::test_gender_distribution_sql PASSED              [ 55%]
+tests/test_homework.py::test_top5_by_dept_sql PASSED                     [ 61%]
+tests/test_homework.py::test_repartition PASSED                          [ 66%]
+tests/test_homework.py::test_coalesce PASSED                             [ 72%]
+tests/test_homework.py::test_partition_write_read PASSED                 [ 77%]
+tests/test_homework.py::test_partition_performance_report PASSED         [ 83%]
+tests/test_homework.py::test_gender_dept_pivot PASSED                    [ 88%]
+tests/test_homework.py::test_rank_within_dept PASSED                     [ 94%]
+tests/test_homework.py::test_run_full_pipeline PASSED                    [100%]
+============================= 18 passed in 57.83s =============================
